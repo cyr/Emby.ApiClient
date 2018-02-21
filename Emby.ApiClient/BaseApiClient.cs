@@ -117,9 +117,8 @@ namespace Emby.ApiClient
         /// <value>The name of the device.</value>
         public string DeviceName
         {
-            get { return Device.DeviceName; }
+            get { return Device?.DeviceName; }
         }
-
 
         /// <summary>
         /// Gets or sets the application version.
@@ -133,7 +132,7 @@ namespace Emby.ApiClient
         /// <value>The device id.</value>
         public string DeviceId
         {
-            get { return Device.DeviceId; }
+            get { return Device?.DeviceId; }
         }
 
         /// <summary>
